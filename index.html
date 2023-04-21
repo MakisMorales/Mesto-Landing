@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0s">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Roboto+Condensed&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                   <img class="header__logo" src="Images/logo.svg" alt="logo">
+                </div>
+            </div>
+        </header>
+        <section class="profile">
+            <div class="container">
+                <div class="profile__inner">
+                    <img class="profile__avatar" src="Images/Avatar.jpg" alt="Avatar">
+                    <div class="profile__info">
+                      <h2 class="profile__name">Жак-Ив Кусто</h2>
+                      <a class="profile__editbtn" href="#popup"><img class="profile__editbtn" src="Images/Edit_Button.svg" alt="Изменить"></a>
+                      <p class="profile__status">Исследователь океанов</p>
+                    </div>
+                    <button class="profile__add-btn">
+                      <img class="profile__add-btn-img" src="Images/addbtn.svg" alt="Добавить">
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="tours">
+            <div class="container">
+                <div class="tour__items">
+                    <div class="tour__item">
+                        <img src="Images/karachaevsk.jpg" alt="" class="tour__item-img">
+                        <div class="tour__item-info">
+                          <h2 class="tour__item-title">Карачаевск</h2>
+                          <label>
+                            <input type='checkbox' class="tour__item-checkbox">
+                            <span class="check__style"></span>
+                          </label>
+                        </div>
+                    </div>
+                    <div class="tour__item">
+                        <img src="Images/Elbrus.jpg" alt="" class="tour__item-img">
+                        <div class="tour__item-info">
+                          <h2 class="tour__item-title">Гора Эльбрус</h2>
+                          <label>
+                            <input type='checkbox' class="tour__item-checkbox">
+                            <span class="check__style"></span>
+                          </label>
+                        </div>
+                    </div>
+                    <div class="tour__item">
+                        <img src="Images/Dombai.jpg" alt="" class="tour__item-img">
+                        <div class="tour__item-info">
+                          <h2 class="tour__item-title">Домбай</h2>
+                          <label>
+                            <input type='checkbox' class="tour__item-checkbox">
+                            <span class="check__style"></span>
+                          </label>
+                        </div>
+                    </div>
+                    <div class="tour__item">
+                        <img src="Images/Elbrus.jpg" alt="" class="tour__item-img">
+                        <div class="tour__item-info">
+                          <h2 class="tour__item-title">Гора Эльбрус</h2>
+                          <label>
+                            <input type='checkbox' class="tour__item-checkbox">
+                            <span class="check__style"></span>
+                          </label>
+                        </div>
+                    </div>
+                    <div class="tour__item">
+                        <img src="Images/Dombai.jpg" alt="" class="tour__item-img">
+                        <div class="tour__item-info">
+                          <h2 class="tour__item-title">Домбай</h2>
+                          <label>
+                            <input type='checkbox' class="tour__item-checkbox">
+                            <span class="check__style"></span>
+                          </label>
+                        </div>
+                    </div>
+                    <div class="tour__item">
+                        <img src="Images/karachaevsk.jpg" alt="" class="tour__item-img">
+                        <div class="tour__item-info">
+                          <h2 class="tour__item-title">Карачаево-Черкесия</h2>
+                          <label>
+                            <input type='checkbox' class="tour__item-checkbox">
+                            <span class="check__style"></span>
+                          </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="popup" id="popup">
+          <div class="popup_container">
+            <div class="popup__close-btn-container">
+              <a href="#" class="popup__close-btn">
+                <img src="Images/Close_Icon.svg" alt="" class="popup__close-btn-img">
+              </a>
+            </div>
+            <div class="popup__inner">
+              <h2 class="popup__title">Редактировать профиль</h2>
+              <form action="" class="popup__form">
+                <input type="text" class="popup__input" value="Жак-Ив Кусто">
+                <input type="text" class="popup__input" value="Исследователь океанов">
+              </form>
+              <div class="popup__button">
+                <p class="popup__button-title">Сохранить</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <p class="footer__text">
+                    &copy; 2020 Mesto Russia
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
